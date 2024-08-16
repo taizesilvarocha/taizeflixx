@@ -1,0 +1,102 @@
+body {
+    color: darkred;
+    background-color: black;
+    font-family: "New Amsterdam", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px darkred;
+    margin: 20px;
+    font-size: 32px;
+}
+
+
+
+.chamada {
+    background-color: rgb(17, 0, 0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.primeiro-video {
+    text-align: center; /* Centraliza o conteúdo */
+    margin: 20px;
+}
+
+.primeiro-video a {
+    text-decoration: none; /* Remove a sublinhado do link */
+}
+
+.primeiro-video img {
+    width: 560px; /* Largura da imagem */
+    height: 315px; /* Altura da imagem */
+    border: 2px solid #000000; /* Borda preta em volta da imagem */
+    transition: transform 0.3s ease;
+}
+
+.primeiro-video img:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+
+.chamada-texto {
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+ p {
+    font-size: 20px;
+ }
+ img {
+    height: 200px;
+ }
+ .categoria {
+    padding: 20px;
+    margin-bottom: 40px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: #000000;
+}
+
+.categoria h2 {
+    color: #d32f2f; /* Cor mais vibrante */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.categoria-videos a {
+    display: inline-block;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.categoria-videos img {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+}
+
+.categoria-videos a:hover {
+    transform: translateY(-5px); /* Pequeno movimento para cima */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais profunda */
+}
